@@ -1,0 +1,22 @@
+proxy:
+  - name: "RackNerd Reality"
+    type: vless
+    server: 192.3.252.176
+    port: 443
+    uuid: 1168f6f2-e3d9-4aba-b5b4-f3f3be492406
+    alterId: 0
+    cipher: none
+    tls: true
+    flow: ""
+    streamSettings:
+      network: tcp
+      security: reality
+      realitySettings:
+        show: false
+        dest: www.cloudflare.com:443
+        serverNames:
+          - www.cloudflare.com
+        publicKey: e3XMIYg-a2DZ4tag_b75P-jOXyzGmXY20xyEYONtr0A
+        shortIds:
+          - a1b2c3
+        client-fingerprint: chrome
